@@ -1,0 +1,17 @@
+ATIVAR o ambiente virtual no windows(venv):
+
+> .\venv\Scripts\activate
+
+para DESATIVAR o ambiente virtual(venv):
+
+> deactivate
+
+pip install pytest
+pip install django
+
+> django-admin --version
+  4.0.4
+
+* VScode DETECTA TESTE:
+
+arquivo e funções começando com "test_ ..."
