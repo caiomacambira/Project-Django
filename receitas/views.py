@@ -3,7 +3,10 @@ from django.shortcuts import render
 
 
 def home(request):
-    return HttpResponse('HOME')
+    # rendezira o arquivo home.html
+    return render(request, 'receitas/home.html', context={
+        'name': 'Caio Macambira'
+    })
 
 
 def sobre(request):
