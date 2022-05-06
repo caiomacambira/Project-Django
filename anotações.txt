@@ -19,3 +19,6 @@ arquivo e funções começando com "test_ ..."
 Criar o projeto:
 > django-admin startproject projeto1 .
 obs: "." é para criar na pasta onde estou
+
+Criar apps:
+python manage.py startapp [nome da app]
