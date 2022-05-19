@@ -20,5 +20,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     # path('', include('receitas.urls')),  # incluindo urls de urls */
     # aninhamento de ulrs ex:http://127.0.0.1:8000/receitas/contato/
-    path('receitas/', include('receitas.urls')),
+    #path('receitas/', include('receitas.urls')),
+    path('', include('receitas.urls')),
 ]
