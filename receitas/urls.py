@@ -8,4 +8,6 @@ app_name = 'recipes'
 urlpatterns = [
     path('', views.home, name="home"),  # home
     path('receitas/<int:id>/', views.recipe, name="recipe"),  # /recipe
+    path('receitas/category/<int:category_id>/',
+         views.category, name="category"),
 ]
